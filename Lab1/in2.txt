@@ -1,0 +1,11 @@
+10
+banana 2.5
+beef 55.9
+pasta	39.85
+salads	10.3
+cereals	17.69
+noodles	76.52
+desserts 90.37
+orange 22.99
+turkey 27.6
+grape 40.68

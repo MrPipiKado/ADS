@@ -1,0 +1,11 @@
+10
+toy 25.63
+car 10.2
+milk 2.0
+coffee 22.66
+water 11.9
+cola 5.3
+meet 23.33
+apple 5.6
+potato 2.3
+limone 13.25
