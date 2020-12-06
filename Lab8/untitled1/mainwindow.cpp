@@ -60,11 +60,11 @@ void MainWindow::on_pushButton_2_clicked()
     int i = 0;
     for(;i<size;++i)
     {
-        log+=arr[i].name;
+        log+=QString::number(arr[i].price);
         log+=" ";
-        if(ui->lineEdit->text()==arr[i].name)
+        if(ui->lineEdit->text().toInt()==arr[i].price)
         {
-            ui->label->setText(QString::number(arr[i].price));
+            ui->label->setText(arr[i].name);
             ui->textEdit->setText(log);
             return;
         }
