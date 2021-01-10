@@ -46,7 +46,7 @@ int BoyerMooreSearch(QString text, QString word, QString & log){
         j = word.size() - 1;
         stop = word.size();
         while(j >= 0 && text[i+j] == word[j]){
-            log += "Comparing " + word[j] + " to " + text[i+j] + ", match\n";
+            log += "Comparing " + word[j] + " to " + text[i+j] + ", match " + QString::number(i+j) + "\n";
             j--;
         }
         if(j == -1){
